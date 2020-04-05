@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input id='age' value='18'/>
+    <button onclick="cl(document.getElementById('age').value)">Click Here!!</button>
+    <p id='demo'>          </p>
+    <p id='demo2'>       </p>
+    <div id="di1" style="background-color: blanchedalmond;lighting-color: aqua;color: yellowgreen;box-shadow: inset;">
+        <p>This song makes you think about all the 
+            toxic relationships that you have ever been in (that's if you've been in one before) and thank whatever strength that you had for leaving all that behind no matter how painful it was to you at that moment.</p>
+    </div>
+    <p id='demo23'>       </p>
+    <form >
+        <select id='car' name='car'>
+                <option value="volvo">volvo</option>
+                <option value="saab">Saab</option>
+                <option value="fiat">Fiat</option>
+                <option value="audi">Audi</option>
+        </select>
+        <input type="submit">
+        <button onclick="sss">clivk</button>
+    </form>
+    <script src="index2.js">
+        function sss(){
+            document.getElementById('demo23').innerHTML=document.getElementById('car').value;
+        }
+    </script>
+    
+</body>
+</html>
