@@ -5,6 +5,8 @@ function crateCicle(radiue){
         radiue,
         draw :function(){
             console.log('draw')
+            console.log('draw')
+            console.log('draw')
         }
     }
 }
